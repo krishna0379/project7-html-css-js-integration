@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="7.js"></script>
+</head>
+<body style="background: rgb(98, 192, 199); padding: 10px;">
+    <h1 style="background-color:rgb(18, 240, 148); text-align: center; padding: 10px;">Register Employee</h1>
+
+    <form id="form" onsubmit="event.preventDefault(); registerEmployee()" style="background: rgb(212, 233, 173); text-align: center;">
+        <div style="margin-bottom: 8px;">
+            <label for="">Username</label>
+            <input id="username" type="text" style="background: cornflowerblue; margin-left: 3px;" placeholder="Username" required>
+        </div>
+
+        <div style="margin-bottom: 8px;">
+            <label for="">Password</label>
+            <input id="password" type="password" style="background: cornflowerblue; margin-left: 5px;" placeholder="Password" required>
+        </div>
+
+        <div style="margin-bottom: 8px;">
+            <label for="">Email</label>
+            <input id="email" type="text" style="background: cornflowerblue; margin-left: 29px;" placeholder="Email" required>
+        </div>
+
+        <div style="margin-bottom: 8px;">
+            <label for="">Mobile</label>
+            <input id="mobile" type="text" style="background: cornflowerblue; margin-left: 20px;" placeholder="Mobile" required>
+        </div>
+
+        <div style="margin-bottom: 8px;">
+            <input type="submit" style="background: rgb(233, 14, 116);" value="Register" >
+        </div>
+    </form>
+
+    <h2 style="text-align: center; margin-top: 50px; margin-bottom: 30px;" >Employee List</h2>
+    <div id="parent">
+        <div style="font-size: large;">
+            <hr>
+            <span>sai</span>
+            <br>
+            <span>s15z6z5a</span>
+            <br>
+            <span>sai@gmail.com</span>
+            <br>
+            <span>7337381901</span>
+            <br>
+            <span style="margin-left: 100px; cursor: pointer;"> Delete  &#10060;</span>
+        </div>
+    </div>
+
+</body>
+</html>
