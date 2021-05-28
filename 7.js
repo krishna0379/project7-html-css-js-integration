@@ -19,7 +19,7 @@ const registerEmployee = () => {
             <br>
             <span>${mobileRef.value}</span>
             <br>
-            <span style="margin-left: 16px; cursor: pointer;">&#10060;</span>
+            <span style="margin-left: 100px; cursor: pointer;"> Delete  &#10060;</span>
         <hr>
         </div>
     `;
